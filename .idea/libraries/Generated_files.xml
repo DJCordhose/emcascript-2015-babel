@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/5to6-sample/class/0-es5-class-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/scope/es6-iife-no-hoisting-const-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/class/4-es6-class-static-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/scope/es6-iife-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/class/3-es6-class-extends-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/scope/es5-iife-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/class/2-es6-class-get-compiled.js" />
+        <item url="file://$PROJECT_DIR$/sandbox-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/functions/es5-robot-compiled.js" />
+        <item url="file://$PROJECT_DIR$/5to6-sample/class/1-es6-class-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/5to6-sample/class/0-es5-class-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/scope/es6-iife-no-hoisting-const-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/class/4-es6-class-static-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/scope/es6-iife-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/class/3-es6-class-extends-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/scope/es5-iife-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/class/2-es6-class-get-compiled.js" />
+      <root url="file://$PROJECT_DIR$/sandbox-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/functions/es5-robot-compiled.js" />
+      <root url="file://$PROJECT_DIR$/5to6-sample/class/1-es6-class-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
