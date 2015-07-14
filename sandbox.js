@@ -1,11 +1,20 @@
 'use strict';
 
-class Person {
-    constructor(name) {
-        this.name = name;
-    }
+function createArray() {
+    return [1, 2];
+}
 
-    getName() {
-        return this.name;
-    }
+function sum(a, b) {
+    console.log("a", a);
+    console.log("b", b);
+    return a + b;
+}
+
+let [a,b='b'] = [1];
+//let [a,b='b'] = createArray();
+console.log(a);
+console.log(b);
+
+class Daniel {
+    oho: string;
 }
