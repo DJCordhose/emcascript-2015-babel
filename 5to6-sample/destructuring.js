@@ -1,5 +1,6 @@
-//https://github.com/lukehoban/es6features#destructuring
+// https://github.com/lukehoban/es6features#destructuring
 // https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+// http://www.2ality.com/2015/01/es6-destructuring.html
 
 'use strict';
 
