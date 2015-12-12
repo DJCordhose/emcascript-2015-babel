@@ -169,5 +169,82 @@ console.log(typeof c);
 console.log(a);
 // => 10
 
-var obj1 = {}; var obj2 = {}; var obj3 = obj1; console.log(obj1 === obj1); console.log(obj1 !== obj2); conso-le.log(obj1 === obj3);
-var arr1 = []; var arr2 = []; var arr3 = arr1; console.log(arr1 === arr1); console.log(arr1 !== arr2); con-sole.log(arr1 === arr3);
+var obj1 = {};
+var obj2 = {};
+var obj3 = obj1;
+console.log(obj1 === obj1);
+console.log(obj1 !== obj2);
+console.log(obj1 === obj3);
+
+console.log(typeof null);
+// => "object"
+
+var a;
+console.log(a);
+// => undefined
+console.log(typeof a);
+// => "undefined"
+
+//console.log(gibtEsNicht);
+// ReferenceError: gibtEsNicht is not defined
+
+if (typeof gibtEsNicht === "undefined") {
+    console.log("Gibt es nicht!");
+    // => Gibt es nicht!
+}
+
+var obj = {
+    a: undefined
+};
+console.log(obj.a); // => undefined
+console.log(obj.b); // => undefined
+
+var a = 10;
+var b = "b";
+// ACHTUNG: Block schon am Ende
+// dieser Zeile beginnen
+if (a === 10 && b === "b") {
+    console.log("Ja");
+    // => Ja
+}
+
+
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+// Das gibt eine Überraschung!
+var numbers = [1, 2, 3, 4, 5];
+var sum = 0;
+for (var number in numbers) {
+    sum += number;
+}
+console.log("Summe: " + sum);
+// => Summe: 001234
+
+var numbers = [1, 2, 3, 4, 5];
+var sum = 0;
+for (var index in numbers) {
+    sum += numbers[index];
+}
+console.log("Summe: " + sum);
+// => Summe: 15
+
+try {
+    throw "Fehler";
+// oder
+    throw new Error("Fehler");
+} catch (e) {
+    console.log("Gefangen: " + e);
+} finally {
+    console.log("Wird immer durchlaufen");
+}
+// => Gefangen: Fehler
+// => Wird immer durchlaufen
+
+/**
+ * Der Name der Person.
+ *
+ * @type {string}
+ */
+var name = "Olli";

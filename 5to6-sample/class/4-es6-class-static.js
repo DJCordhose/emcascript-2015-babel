@@ -27,5 +27,5 @@ class Male extends Person {
 }
 
 
-const olli = new Male('Olli');
+const olli = new Male(Person.lieblingsName);
 console.log(olli.name);
